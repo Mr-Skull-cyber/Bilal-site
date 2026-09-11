@@ -18,9 +18,9 @@ function resizeCanvas() {
 }
 
 function renderMatrix() {
-    ctx.fillStyle = "rgba(242, 245, 244, .18)";
+    ctx.fillStyle = "rgba(11, 15, 23, 0.16)";
     ctx.fillRect(0, 0, width, height);
-    ctx.fillStyle = "#7e9e0b";
+    ctx.fillStyle = "#00ff66";
     ctx.font = "11px 'DM Mono', monospace";
     drops.forEach((drop, index) => {
         ctx.fillText(characters[Math.floor(Math.random() * characters.length)], index * 24, drop * 20);
