@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bilal provides vulnerability assessment and penetration testing for web applications, APIs, infrastructure, and mobile apps.">
+    <title>Bilal | VAPT Consultant</title>
+    <link rel="icon" type="image/jpeg" href="/IMAGES/bilal.jpeg">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <canvas id="matrixCanvas" aria-hidden="true"></canvas>
+
+    <header class="header">
+        <a href="#home" class="logo"><span>./</span>bilal<span class="logo-dot">_</span></a>
+        <nav class="navbar" aria-label="Main navigation">
+            <a href="#home" class="active">Home</a>
+            <a href="#services">Services</a>
+            <a href="#process">Process</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <a class="nav-cta" href="mailto:b3lal.1899@gmail.com?subject=VAPT%20Assessment%20Request">Start a conversation <i class="bx bx-right-arrow-up"></i></a>
+    </header>
+
+    <main>
+        <section id="home" class="hero section-shell">
+            <div class="hero-copy">
+                <p class="eyebrow"><span class="status-dot"></span> Independent security consultancy</p>
+                <h1>Find the weakness.<br><em>Fix the risk.</em></h1>
+                <p class="hero-lede">Practical vulnerability assessment and penetration testing for teams that need clear answers, safe testing, and a path to stronger security.</p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#contact">Book an assessment <i class="bx bx-arrow-up-right"></i></a>
+                    <a class="text-link" href="#process">See how I work <i class="bx bx-down-arrow-alt"></i></a>
+                </div>
+                <div class="hero-socials" aria-label="Bilal's professional profiles">
+                    <a href="https://www.linkedin.com/in/m-bilal-butt-b52bb02b0?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noreferrer"><i class="bx bxl-linkedin"></i> LinkedIn</a>
+                    <a href="https://github.com/Mr-Skull-cyber/Skull-Crusher" target="_blank" rel="noreferrer"><i class="bx bxl-github"></i> GitHub</a>
+                    <span><i class="bx bx-lock-alt"></i> Authorized testing only</span>
+                </div>
+                <div class="hero-proof">
+                    <div><strong>06</strong><span>phases in every engagement</span></div>
+                    <div><strong>04</strong><span>testing domains covered</span></div>
+                    <div><strong>01</strong><span>clear remediation roadmap</span></div>
+                </div>
+            </div>
+            <div class="hero-portrait">
+                <div class="portrait-frame">
+                    <div class="portrait-grid"></div>
+                    <img src="/IMAGES/bilal.jpeg" alt="Bilal, VAPT consultant">
+                    <div class="portrait-tag"><span>STATUS</span><strong>READY TO TEST</strong></div>
+                </div>
+                <div class="hero-orbit orbit-one"></div>
+                <div class="hero-orbit orbit-two"></div>
+                <p class="portrait-caption">Bilal / VAPT CONSULTANT<br><span>Web · API · Infra · Mobile</span></p>
+            </div>
+        </section>
+
+        <section id="services" class="section-shell section-block">
+            <div class="section-heading">
+                <p class="eyebrow">01 / What I test</p>
+                <h2>Security work built<br>around real risk.</h2>
+                <p>Every engagement combines industry-standard tooling with manual validation, so findings are prioritised by business impact—not just scanner output.</p>
+            </div>
+            <div class="service-grid">
+                <article class="service-card featured-card">
+                    <span class="card-number">01</span>
+                    <i class="bx bx-globe-alt card-icon"></i>
+                    <h3>Web apps &amp; APIs</h3>
+                    <p>Proxy inspection, authentication review, fuzzing, parameter tampering, and API testing.</p>
+                    <div class="tool-row"><span>Burp Suite Pro</span><span>OWASP ZAP</span><span>Postman</span></div>
+                </article>
+                <article class="service-card">
+                    <span class="card-number">02</span>
+                    <i class="bx bx-network-chart card-icon"></i>
+                    <h3>Network &amp; infrastructure</h3>
+                    <p>Discover exposed services, validate vulnerabilities, and map the attack surface safely.</p>
+                    <div class="tool-row"><span>Nmap</span><span>Nessus</span><span>Metasploit</span></div>
+                </article>
+                <article class="service-card">
+                    <span class="card-number">03</span>
+                    <i class="bx bx-mobile-alt card-icon"></i>
+                    <h3>Mobile applications</h3>
+                    <p>Static and dynamic analysis, reverse engineering, and mobile API security testing.</p>
+                    <div class="tool-row"><span>MobSF</span><span>Frida</span><span>Objection</span></div>
+                </article>
+                <article class="service-card">
+                    <span class="card-number">04</span>
+                    <i class="bx bx-refresh card-icon"></i>
+                    <h3>Retesting &amp; validation</h3>
+                    <p>Verify fixes in a focused patch window and confirm that previously identified findings are closed.</p>
+                    <div class="tool-row"><span>CVSS</span><span>PoC logs</span><span>Remediation</span></div>
+                </article>
+            </div>
+        </section>
+
+        <section id="process" class="section-shell section-block process-section">
+            <div class="section-heading split-heading">
+                <div><p class="eyebrow">02 / The engagement</p><h2>A safer way to<br>test the unknown.</h2></div>
+                <p>Clear boundaries and written authorization come first. The six-phase workflow keeps testing controlled, repeatable, and useful for the people who have to fix what we find.</p>
+            </div>
+            <div class="process-list">
+                <article class="process-step"><span>01</span><div><h3>Scoping</h3><p>Identify assets, domains, applications, and the right black, grey, or white-box methodology.</p></div><i class="bx bx-target-lock"></i></article>
+                <article class="process-step"><span>02</span><div><h3>Authorization</h3><p>Sign the Rules of Engagement and SOW, whitelist tester IPs, and define emergency stop switches.</p></div><i class="bx bx-shield-quarter"></i></article>
+                <article class="process-step"><span>03</span><div><h3>Recon &amp; vulnerability assessment</h3><p>Map architecture, enumerate services, and establish the baseline attack surface.</p></div><i class="bx bx-radar"></i></article>
+                <article class="process-step"><span>04</span><div><h3>Exploitation</h3><p>Manually validate and chain findings while avoiding disruptive denial-of-service activity.</p></div><i class="bx bx-bug-alt"></i></article>
+                <article class="process-step"><span>05</span><div><h3>Reporting</h3><p>Translate CVSS-scored findings into executive impact and developer-ready remediation steps.</p></div><i class="bx bx-file-blank"></i></article>
+                <article class="process-step"><span>06</span><div><h3>Retesting</h3><p>Run a verification scan and confirm successful vulnerability remediation.</p></div><i class="bx bx-check-shield"></i></article>
+            </div>
+        </section>
+
+        <section id="about" class="section-shell section-block about-section">
+            <div class="about-card">
+                <div class="about-image"><img src="/IMAGES/bilal.jpeg" alt="Bilal in a black suit"></div>
+                <div class="about-copy">
+                    <p class="eyebrow">03 / Working principles</p>
+                    <h2>Security should be<br><em>understandable.</em></h2>
+                    <p>My approach is grounded in responsible, authorised testing and honest communication. You get evidence of what matters, why it matters, and what to do next.</p>
+                    <div class="principles">
+                        <div><span>01</span><strong>Legal by design</strong><small>NDA · MSA · SOW · RoE</small></div>
+                        <div><span>02</span><strong>Evidence over noise</strong><small>Manual validation · CVSS</small></div>
+                        <div><span>03</span><strong>Actionable delivery</strong><small>Executive &amp; technical reports</small></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-shell deliverables-section">
+            <div class="section-heading"><p class="eyebrow">04 / What you receive</p><h2>One report.<br>Two audiences.</h2></div>
+            <div class="deliverable-grid">
+                <article><span class="deliverable-label">For leadership</span><h3>Executive summary</h3><p>Risk posture, security rating, severity breakdown, business impact, and a strategic risk-reduction roadmap.</p><i class="bx bx-line-chart"></i></article>
+                <article><span class="deliverable-label">For builders</span><h3>Technical findings</h3><p>Affected endpoints, proof-of-concept logs, screenshots, CVSS vectors, and step-by-step remediation guidance.</p><i class="bx bx-code-alt"></i></article>
+            </div>
+        </section>
+
+        <section id="contact" class="section-shell contact-section">
+            <div>
+                <p class="eyebrow">05 / Start here</p>
+                <h2>Have an attack surface<br>you want to understand?</h2>
+                <p class="contact-lede">Share a little about your environment and testing goals. We’ll define a safe, focused next step.</p>
+            </div>
+            <div class="contact-panel">
+                <a href="mailto:b3lal.1899@gmail.com" class="contact-line"><span>Email</span><strong>b3lal.1899@gmail.com</strong><i class="bx bx-arrow-up-right"></i></a>
+                <a href="tel:+923340472333" class="contact-line"><span>Phone</span><strong>+92 334 0472333</strong><i class="bx bx-arrow-up-right"></i></a>
+                <a href="https://www.linkedin.com/in/m-bilal-butt-b52bb02b0?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noreferrer" class="contact-line"><span>LinkedIn</span><strong>Connect with Bilal</strong><i class="bx bx-arrow-up-right"></i></a>
+                <a href="https://github.com/Mr-Skull-cyber/Skull-Crusher" target="_blank" rel="noreferrer" class="contact-line"><span>GitHub</span><strong>Skull-Crusher</strong><i class="bx bx-arrow-up-right"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer section-shell">
+        <a href="#home" class="logo"><span>./</span>bilal<span class="logo-dot">_</span></a>
+        <p>Independent VAPT consultancy · Pakistan</p>
+        <p>© 2026 Bilal. Test responsibly.</p>
+    </footer>
+
+    <script src="/JAVASCRIPT/matrix.js"></script>
+</body>
+</html>
